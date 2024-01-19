@@ -618,9 +618,7 @@ nav {
   line-height: 28px; /* 140% */
 }
 
-.Section5Content{
-  width: 80vw;
-}
+
 
 .Section9 {
   position: relative;
@@ -640,12 +638,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.Section9Content{
-  width: 80vw;
-  flex-direction: column;
-
 }
 
 footer {
@@ -777,6 +769,15 @@ footer {
 @media only screen and (max-width: 768px) {
   .section {
     flex-direction: column-reverse;
+  }
+  .Section5Content{
+    width: 80vw;
+  }
+
+  .Section9Content{
+    width: 80vw;
+    flex-direction: column;
+  
   }
 
   nav {
