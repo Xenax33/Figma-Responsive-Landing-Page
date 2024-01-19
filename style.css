@@ -829,7 +829,10 @@ footer {
     gap: 20px;
   }
   .Section5Icons {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .Section8Cards {
     display: flex;
