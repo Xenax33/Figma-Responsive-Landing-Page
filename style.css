@@ -10,6 +10,10 @@ body {
   user-select: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --Neutral-Black: #263238;
   --Neutral-D_Grey: #4d4d4d;
